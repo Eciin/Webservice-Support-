@@ -1,4 +1,4 @@
-resource "vsphere_virtual_machine" "Server" {
+resource "vsphere_virtual_machine" "webshop" {
   name             = "Monitoring Server"
   folder           = "_Courses/I3-DB01/i416434"
   resource_pool_id = data.vsphere_resource_pool.pool.id
