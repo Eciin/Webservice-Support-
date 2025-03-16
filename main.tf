@@ -30,7 +30,7 @@ resource "vsphere_virtual_machine" "webshop" {
  
     customize {
       linux_options {
-        host_name = "Monitoring-Server"
+        host_name = "Webshop"
         domain    = "local"
       }
       network_interface {
