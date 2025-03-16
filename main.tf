@@ -1,5 +1,5 @@
 resource "vsphere_virtual_machine" "webshop" {
-  name             = "Monitoring Server"
+  name             = "webshop"
   folder           = "_Courses/I3-DB01/i416434"
   resource_pool_id = data.vsphere_resource_pool.pool.id
   datastore_id     = data.vsphere_datastore.datastore.id
